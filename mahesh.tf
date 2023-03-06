@@ -154,7 +154,7 @@ resource "aws_volume_attachment" "ebs_att" {
       "sudo mkfs.ext4 /dev/xvdh",
       "sudo mount /dev/xvdh /var/www/html/",
       "sudo rm -rf /var/www/html/*",
-      "sudo git clone https://github.com/mahesh-123123/Terraform-AWS.git /var/www/html/",
+      "sudo git clone https://github.com/mahesh-123123/AWS-Static.git /var/www/html/",
     ]
   }
 
